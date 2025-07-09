@@ -332,7 +332,6 @@ export default function Tasks() {
                 <option value="all">All Priority</option>
                 <option value="High">High</option>
                 <option value="Low">Low</option>
-                <option value="Completed">Completed</option>
               </select>
             </div>
             <div className="flex items-center space-x-2">
