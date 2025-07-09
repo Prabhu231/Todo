@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import NavBar from "./components/navbar";
+import Sidebar from "./components/sidebar";
+import Tasks from "./components/tasks";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="flex h-screen">
+        <Sidebar />
+        <div className="flex-1 flex flex-col overflow-hidden">
+          <NavBar />
+          <div className="flex-1 overflow-auto bg-gray-50 p-4">
+            <Tasks />
+          </div>
+        </div>
+      </div>
+    </Fragment>
   );
 }
-
-export default App;
