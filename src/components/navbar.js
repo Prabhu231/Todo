@@ -1,4 +1,4 @@
-import { Search, Calendar, Bell, ChevronLeft, ChevronDown } from "lucide-react";
+import { Search, Calendar, Bell, ChevronDown } from "lucide-react";
 
 export default function NavBar() {
   return (
