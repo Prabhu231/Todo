@@ -13,7 +13,7 @@ A simple Kanban-style task board built with React.
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/your-username/Todo.git](https://github.com/Prabhu231/Todo.git)
+git clone https://github.com/Prabhu231/Todo.git
 cd Todo
 npm install
 npm start
