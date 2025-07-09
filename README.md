@@ -4,7 +4,6 @@ A simple Kanban-style task board built with React.
 
 ## Features
 
--  Drag and drop support
 -  Add new tasks
 -  Built using React and Tailwind CSS
 
